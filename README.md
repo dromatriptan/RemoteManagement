@@ -1,5 +1,9 @@
 # The POWERshell
 
+## PlayWithLinux.ps1
+
+**Overview:** This is my 1st stab at using PowerShell to automate some stuff at home. I pull data from a variety of hosts on my network to a drive. I, then, snapshot the partition (just in case an Rsync/SCP/SMBGet job is running at the time of a backup trigger). Finally, I upload to iDrive for archival purposes. Prior to this, much of this comprised of individual cron jobs on a makeshift debian-based linux "server."
+
 ## SchedTaskBasedPopup.ps1
 
 **Overview:** Simple Script to Schedule a task that runs as the user that's logged in. You'll want to write something that will figure out the computername and username of the logged on user this script will be targeting, however.
